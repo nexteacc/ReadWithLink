@@ -43,4 +43,4 @@ We may update this privacy policy from time to time. Any significant changes wil
 
 If you have any questions or suggestions regarding this privacy policy, please contact us through the Issues feature of our GitHub repository.
 
-Last updated: [14/10/2024]
+Last updated: [10/14/2024]
