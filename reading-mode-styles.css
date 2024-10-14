@@ -1,0 +1,129 @@
+
+#reading-mode-view {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f0f0f0;
+    z-index: 9999;
+    display: flex;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+
+#reading-content {
+    flex: 1;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 850px;
+    overflow-y: auto;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+#reading-content h1 {
+    font-size: 28px;
+    margin-bottom: 0.5em;
+}
+#reading-content p {
+    margin-bottom: 1em;
+}
+
+
+#reading-content img, 
+#reading-content video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+#reading-sidebar {
+    width: 250px;
+    padding: 1em;
+    background: #fff;
+    border-left: 1px solid #eee;
+    overflow-y: auto;
+    font-size: 14px;
+    margin-top: 20px;
+    height: calc(100% - 40px);
+}
+#reading-sidebar h3 {
+    font-size: 16px;
+    margin-bottom: 1em;
+    color: #333;
+}
+#top-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+#top-links li {
+    margin-bottom: 0.5em;
+}
+#top-links a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+#top-links a:hover {
+    text-decoration: underline;
+}
+#view-all-links {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+#view-all-links:hover {
+    background-color: #e0e0e0;
+}
+
+
+#reading-content a {
+    color: #0066cc;
+    text-decoration: none;
+    background-color: rgba(0, 102, 204, 0.1);
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+#reading-content a:hover {
+    background-color: rgba(0, 102, 204, 0.2);
+    text-decoration: underline;
+}
+
+#content-links {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#content-links li {
+    margin-bottom: 8px;
+}
+
+#content-links a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+#content-links a:hover {
+    text-decoration: underline;
+}
